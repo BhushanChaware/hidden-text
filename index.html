@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden-Text</title>
+    <style>
+       #btn1{
+           position: relative;
+           top: 300px;
+           left: 30%;
+           height: 50px;
+           width: 150px;
+           background-color:black;
+           color: white;
+           border: none;
+           font-size: 1.1rem;
+       }
+       #btn2{
+           position: relative;
+           top: 300px;
+           left: 40%;
+           height: 50px;
+           width: 150px;
+           background-color:black;
+           color: white;
+           border: none;
+           font-size: 1.1rem;
+           
+       }
+    </style>
+
+</head>
+
+<body>
+    <button id="btn1" onclick="myFunction()" > HUMAN </button>
+    <button id="btn2" onclick="myFunction1()" > BROWSER </button>
+ 
+
+    <script>
+        function myFunction() {
+          document.getElementById("btn1").innerHTML = "HAT";
+        }
+
+        function myFunction1() {
+          document.getElementById("btn2").innerHTML = "HEALTH";
+        }
+
+</script>
+
+
+</body>
+</html>
